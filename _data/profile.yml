@@ -5,6 +5,11 @@ research_highlights:
   - gathmorad2024_visibility
   - aguilar2019_learning_evolution
   - aguilar2021_easeml
+evident:
+  name: EVIDENT
+  role: Project partner
+  years: 2025–2029
+  summary: EVIDENT studies how emergency-department layouts shape staff interactions, teamwork and patient care. I’m a project partner in this SNSF-funded collaboration involving ETH Zürich, the University of Cambridge and Northumbria University.
 sources:
   senior: "https://ethz.ch/content/dam/ethz/associates/services/News/events/Campus-der-Zukunft/cdz2026/2026_01_12_Campus_der_Zukunft_Christoph_Hoelscher.pdf?download=1#page=2"
   ai_center: "https://ai.ethz.ch/about-us/people/associated.html"
@@ -22,3 +27,5 @@ sources:
   guatemalteco_award: "https://www.linkedin.com/pulse/leonel-enrique-aguilar-melgar-guatemalteco-ilustre-tkdee"
   award_talk: "https://www.youtube.com/watch?v=Q3c0KOx9Bko"
   neurips: "https://neurips.cc/virtual/2026/loc/sydney/poster/155236"
+  evident_grant: "https://data.snf.ch/grants/grant/10002845"
+  evident_cambridge: "https://cca.arct.cam.ac.uk/#projects"

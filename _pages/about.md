@@ -10,5 +10,5 @@ title: About
   <p>I build AI systems for humans: from <a href="{{ profile.sources.digital_support | escape }}">digital parenting support</a> to <a href="{{ profile.sources.simulation_video | escape }}">large-scale simulations of human movement</a> and <a href="{{ profile.sources.engineering_profile | escape }}">tools for reproducible machine learning</a>.</p>
   <p>My work was recognized by <a href="{{ profile.sources.mit_award | escape }}">MIT Technology Review’s Innovators Under 35, Latin America (2019)</a>. I also received the <a href="{{ profile.sources.guatemalteco_award | escape }}">Guatemalteco Ilustre — Orator award (2024)</a>.</p>
   <p>At ETH Zürich, I teach HCI, QuantUX, <em>Pandora’s Box</em>, <em>What is “intelligence”?</em> and <em>AI4GOOD</em>, among other courses.</p>
-  <div class="actions"><a class="button" href="{{ '/#research' | relative_url }}">Explore my work</a><a href="{{ '/teaching/' | relative_url }}">Teaching record</a><a href="{{ '/assets/cv.pdf' | relative_url }}">Download CV (PDF)</a></div>
+  <div class="actions"><a class="button" href="{{ '/#research' | relative_url }}">Explore my work</a><a href="{{ '/teaching/' | relative_url }}">Teaching record</a><a href="{{ site.linkedin | escape }}">Connect on LinkedIn <span aria-hidden="true">↗</span></a></div>
 </section>

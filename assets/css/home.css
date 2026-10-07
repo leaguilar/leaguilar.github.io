@@ -44,6 +44,9 @@
 .work-story p { margin-top: 1rem; color: var(--muted); font-size: 1.075rem; max-width: 37rem; }
 .work-story p strong { color: var(--ink); font-weight: 600; }
 .story-links { display: flex; flex-wrap: wrap; gap: .65rem 1.5rem; margin-top: 1.1rem; font-size: .95rem; font-weight: 600; }
+.project-partnership { display: grid; grid-template-columns: minmax(0, .7fr) minmax(0, 1.3fr); align-items: center; gap: 2.5rem; margin-top: 3rem; padding: 2rem; background: var(--white); border: 1px solid var(--line); border-left: 3px solid var(--teal); }
+.project-partnership h3 { font-size: clamp(2.5rem, 4vw, 3.5rem); margin-block: .7rem; }
+.partnership-copy > p { font-size: 1.075rem; color: var(--muted); }
 .engineering-note { display: flex; align-items: center; justify-content: space-between; gap: 2.5rem; margin-top: 3rem; padding: 1.6rem 1.8rem; border-left: 3px solid var(--teal); background: #eaf1f3; }
 .engineering-note h3 { font-size: 1.8rem; margin-block: .5rem .6rem; }
 .engineering-note p:not(.eyebrow) { font-size: 1rem; color: var(--muted); max-width: 42rem; }
@@ -92,6 +95,7 @@
   .work-grid { grid-template-columns: 1fr; gap: 2.5rem; }
   .work-story h3 { font-size: 2.1rem; }
   .work-meta { font-size: .76rem; }
+  .project-partnership { grid-template-columns: 1fr; gap: 1.2rem; padding: 1.4rem; margin-top: 2.5rem; }
   .engineering-note { display: block; padding: 1.4rem; margin-top: 2.5rem; }
   .engineering-note .story-links { flex-direction: row; margin-top: 1rem; }
   .recognition-section { padding-block: 3rem; }
@@ -108,7 +112,7 @@
   .intro-portrait { max-width: 200px; }
   .recognition-section { background: white; color: var(--ink); }
   .recognition-section .eyebrow { color: var(--muted); }
-  .work-story, .award-story, .neurips-highlight { break-inside: avoid; margin-bottom: 2rem; }
+  .work-story, .award-story, .neurips-highlight, .project-partnership { break-inside: avoid; margin-bottom: 2rem; }
   .work-visual, .award-visual { max-width: 400px; }
   .video-label, .contact-actions { display: none; }
 }

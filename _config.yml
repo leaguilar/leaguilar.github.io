@@ -3,6 +3,7 @@ description: Leonel Aguilar, Senior Researcher at ETH Zürich. Building AI syste
 url: https://leaguilar.github.io
 baseurl: ""
 email: aleonel@ethz.ch
+linkedin: https://www.linkedin.com/in/leonelaguilar/
 timezone: Europe/Zurich
 markdown: kramdown
 permalink: /:categories/:title/
@@ -25,3 +26,4 @@ exclude:
   - assets/academicons-1.9.2
   - .bundle
   - .jekyll-cache
+  - assets/cv.pdf

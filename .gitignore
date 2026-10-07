@@ -5,3 +5,4 @@ Gemfile.lock
 .bundle/
 vendor/
 .jekyll-cache/
+assets/cv.pdf
