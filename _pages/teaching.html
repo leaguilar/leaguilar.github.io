@@ -1,0 +1,14 @@
+---
+layout: portfolio
+permalink: /teaching/
+title: Teaching
+description: Leonel Aguilar teaches across human-computer interaction, user experience, cognition and AI at ETH Zürich.
+---
+<div class="wrap catalogue">
+  <header class="catalogue-header"><p class="eyebrow">Teaching at ETH Zürich</p><h1>People, interaction<br>and intelligent systems.</h1><p>I teach across human–computer interaction, user experience, human cognition and AI’s role in society. My courses include HCI, QuantUX, <em>Pandora’s Box</em>, <em>What is “intelligence”?</em> and <em>AI4GOOD</em>.</p><a class="text-link" href="{{ '/assets/cv.pdf' | relative_url }}">Download CV <span class="file-label">PDF</span></a></header>
+  <div class="publication-list">{% for course in site.data.teaching.courses %}
+    <article id="{{ course.key }}" class="publication teaching-course">
+      <div class="publication-year">{{ course.year_label }}</div>
+      <div class="publication-content"><p class="project-meta">{{ course.role | escape }}{% if course.code != '' %} <span>·</span> {{ course.code }}{% endif %}</p><h2>{{ course.title | escape }}</h2>{% if course.url != '' %}<div class="publication-links"><a href="{{ course.url | escape }}">ETH course catalogue <span aria-hidden="true">↗</span></a></div>{% endif %}</div>
+    </article>{% endfor %}</div>
+</div>

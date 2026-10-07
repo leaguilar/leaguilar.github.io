@@ -1,0 +1,24 @@
+# Reviewed evidence and source snapshots: ../../docs/profile-evidence/
+# These are profile source links, not hand-written bibliography records.
+research_highlights:
+  - aguilar2024_eac_vr
+  - gathmorad2024_visibility
+  - aguilar2019_learning_evolution
+  - aguilar2021_easeml
+sources:
+  senior: "https://ethz.ch/content/dam/ethz/associates/services/News/events/Campus-der-Zukunft/cdz2026/2026_01_12_Campus_der_Zukunft_Christoph_Hoelscher.pdf?download=1#page=2"
+  ai_center: "https://ai.ethz.ch/about-us/people/associated.html"
+  cambridge: "https://cca.arct.cam.ac.uk/"
+  eth_profile: "https://cog.ethz.ch/people/dr--leonel_aguilar.html"
+  digital_support: "https://brc.ch/research/digital-support-systems/"
+  parenting_study: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12959410/"
+  simulation_study: "https://doi.org/10.1016/j.trpro.2018.11.042"
+  simulation_video: "https://www.youtube.com/watch?v=Xt0QqztvUpw"
+  engineering_profile: "https://brc.ch/team/leonel-aguilar/"
+  automl_code: "https://github.com/easeml/automl"
+  ci_code: "https://github.com/easeml/ci"
+  mit_award: "https://www.innovatorsunder35.com/the-list/leonel-aguilar/"
+  mit_talk: "https://www.youtube.com/watch?v=5IezZ_RX7eM"
+  guatemalteco_award: "https://www.linkedin.com/pulse/leonel-enrique-aguilar-melgar-guatemalteco-ilustre-tkdee"
+  award_talk: "https://www.youtube.com/watch?v=Q3c0KOx9Bko"
+  neurips: "https://neurips.cc/virtual/2026/loc/sydney/poster/155236"

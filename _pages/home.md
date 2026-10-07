@@ -1,5 +1,6 @@
 ---
 layout: splash
+published: false
 permalink: /
 hidden: false
 header:

@@ -1,0 +1,152 @@
+{
+  "courses": [
+    {
+      "key": "hci",
+      "title": "Human-Computer Interaction: Cognition and Usability",
+      "code": "851-0252-01L",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "role": "Teaching team",
+      "featured": true,
+      "url": "https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/dozent.view?dozide=10047260&ansicht=1&semkez=2026S&lang=en",
+      "year_label": "2024–2026"
+    },
+    {
+      "key": "quantux",
+      "title": "Quantitative User Experience Research: Surveys and Logs Analysis",
+      "code": "851-0257-00L",
+      "years": [
+        2025,
+        2026
+      ],
+      "role": "Teaching team",
+      "featured": true,
+      "url": "https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/dozent.view?dozide=10047260&ansicht=1&semkez=2026W&lang=en",
+      "year_label": "2025–2026"
+    },
+    {
+      "key": "intelligence",
+      "title": "What is ‘intelligence’ - Human Cognition and Artificial Intelligence",
+      "code": "851-0259-00L",
+      "years": [
+        2026
+      ],
+      "role": "Teaching team",
+      "featured": true,
+      "url": "https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/dozent.view?dozide=10047260&ansicht=1&semkez=2026S&lang=en",
+      "year_label": "2026"
+    },
+    {
+      "key": "pandora",
+      "title": "Pandora's Box: Large Language Models and their Impact on Society",
+      "code": "851-0258-00L",
+      "years": [
+        2025
+      ],
+      "role": "Teaching team",
+      "featured": true,
+      "url": "",
+      "year_label": "2025"
+    },
+    {
+      "key": "ebd",
+      "title": "Evidence-Based Design: Methods and Tools for Evaluating Architectural Design",
+      "code": "851-0252-08L",
+      "years": [
+        2024,
+        2025
+      ],
+      "role": "Teaching team",
+      "featured": false,
+      "url": "",
+      "year_label": "2024–2025"
+    },
+    {
+      "key": "advanced-ebd",
+      "title": "Advanced Topics in Evidence-Based Design for Architecture",
+      "code": "851-0253-08L",
+      "years": [
+        2026
+      ],
+      "role": "Teaching team",
+      "featured": false,
+      "url": "https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/dozent.view?dozide=10047260&ansicht=1&semkez=2026W&lang=en",
+      "year_label": "2026"
+    },
+    {
+      "key": "learning-ii",
+      "title": "Joint doctorate ETH-EPFL: Introduction to Methods in Learning Sciences II",
+      "code": "851-0255-00L",
+      "years": [
+        2025
+      ],
+      "role": "Teaching team",
+      "featured": false,
+      "url": "",
+      "year_label": "2025"
+    },
+    {
+      "key": "learning-i",
+      "title": "Joint doctorate ETH-EPFL: Introduction to Methods in Learning Sciences I",
+      "code": "851-0252-14L",
+      "years": [
+        2024
+      ],
+      "role": "Teaching team",
+      "featured": false,
+      "url": "",
+      "year_label": "2024"
+    },
+    {
+      "key": "cognitive-seminar",
+      "title": "Research Seminar Cognitive Science",
+      "code": "851-0252-05L",
+      "years": [
+        2026
+      ],
+      "role": "Teaching team",
+      "featured": false,
+      "url": "https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/dozent.view?dozide=10047260&ansicht=1&semkez=2026W&lang=en",
+      "year_label": "2026"
+    },
+    {
+      "key": "ai4good",
+      "title": "AI4GOOD: Human-Centered AI for Social Good: Peace, Health, Climate",
+      "code": "",
+      "years": [
+        2026
+      ],
+      "role": "Teaching team",
+      "featured": true,
+      "url": "",
+      "year_label": "2026"
+    },
+    {
+      "key": "social-simulation",
+      "title": "Lecture with Computer Exercises: Modeling and Simulating Social Systems in MATLAB (or Python)",
+      "code": "851-0585-04L",
+      "years": [
+        2018
+      ],
+      "role": "Teaching team",
+      "featured": false,
+      "url": "",
+      "year_label": "2018"
+    },
+    {
+      "key": "social-simulation-project",
+      "title": "Modeling and Simulating Social Systems in MATLAB (or Python) - With Coding Project",
+      "code": "860-0011-00L",
+      "years": [
+        2018
+      ],
+      "role": "Teaching team",
+      "featured": false,
+      "url": "",
+      "year_label": "2018"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+/* The homepage tells the short story; the catalogue carries the detail. */
+.landing .intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: clamp(2rem, 5vw, 5rem);
+  align-items: center;
+  padding-block: 4.5rem 3.5rem;
+}
+.intro-copy > .eyebrow a { text-decoration: none; }
+.intro h1 { margin-top: 1.4rem; font-size: clamp(3.7rem, 6.1vw, 6rem); }
+.intro-statement { max-width: 35rem; margin-top: 1.6rem; color: var(--muted); font-size: 1.25rem; }
+.intro-disciplines { margin-top: 1rem; font-size: .95rem; font-weight: 600; }
+.intro .actions { margin-top: 1.65rem; }
+.intro-portrait img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 100%; border-radius: 0; }
+.intro-portrait figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .2rem .6rem; margin-top: .7rem; font-size: .78rem; }
+.intro-portrait figcaption span { color: var(--muted); }
+.intro-recognition { display: flex; align-items: center; gap: .85rem; margin-top: 2rem; font-size: .8rem; line-height: 1.45; text-decoration: none; }
+.recognition-mark { display: grid; place-items: center; width: 2.6rem; height: 2.6rem; border: 1px solid var(--ink); font-family: var(--serif); font-size: 1.65rem; }
+.affiliations { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-block: 1px solid var(--line); }
+.affiliations a { position: relative; display: flex; flex-direction: column; padding: 1.4rem 1.7rem 1.4rem 0; text-decoration: none; }
+.affiliations a + a { padding-left: 2rem; border-left: 1px solid var(--line); }
+.affiliations a > span:first-child { color: var(--muted); font-size: .85rem; }
+.affiliations strong { font-size: 1.3rem; font-weight: 600; line-height: 1.4; }
+.affiliations .affiliation-logo { width: 150px; max-width: 100%; height: auto; margin-top: .35rem; }
+.affiliation-arrow { position: absolute; right: 1.2rem; top: 1.6rem; font-size: 1rem; }
+.selected-work { padding-block: 5rem 4rem; }
+.neurips-highlight { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); align-items: center; gap: 3rem; margin-bottom: 3rem; padding: 2rem; background: #eaf1f3; border-top: 3px solid var(--teal); }
+.neurips-copy h3 { font-size: clamp(2rem, 3.4vw, 3.1rem); line-height: 1.1; margin-block: 1rem; }
+.neurips-copy h3 a { text-decoration: none; }
+.neurips-copy > p:not(.eyebrow) { color: var(--muted); font-size: 1.075rem; }
+.neurips-figure { min-width: 0; }
+.neurips-figure > a { display: block; padding: .75rem; background: white; }
+.neurips-figure img { width: 100%; height: auto; object-fit: contain; }
+.neurips-figure figcaption { margin-top: .7rem; font-size: .75rem; color: var(--muted); }
+.work-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 3rem; }
+.work-story { min-width: 0; }
+.work-visual { position: relative; display: flex; align-items: center; width: 100%; aspect-ratio: 3 / 2; background: #10181e; }
+.work-visual img { width: 100%; height: 100%; object-fit: contain; }
+.video-label { position: absolute; display: inline-flex; align-items: center; gap: .7rem; left: 1rem; bottom: 1rem; padding: .6rem .8rem; background: #fff; color: var(--ink); font-size: .82rem; font-weight: 600; line-height: 1.3; box-shadow: 0 1px 5px #0002; }
+.video-label > span { font-size: .7rem; }
+.work-meta { display: flex; justify-content: space-between; flex-wrap: wrap; gap: .15rem 1rem; margin-block: 1.2rem .65rem; color: var(--muted); font-size: .79rem; }
+.work-meta > span:first-child { font-weight: 600; color: var(--teal); }
+.work-story h3 { font-size: clamp(1.8rem, 2.8vw, 2.6rem); line-height: 1.15; }
+.work-story p { margin-top: 1rem; color: var(--muted); font-size: 1.075rem; max-width: 37rem; }
+.work-story p strong { color: var(--ink); font-weight: 600; }
+.story-links { display: flex; flex-wrap: wrap; gap: .65rem 1.5rem; margin-top: 1.1rem; font-size: .95rem; font-weight: 600; }
+.engineering-note { display: flex; align-items: center; justify-content: space-between; gap: 2.5rem; margin-top: 3rem; padding: 1.6rem 1.8rem; border-left: 3px solid var(--teal); background: #eaf1f3; }
+.engineering-note h3 { font-size: 1.8rem; margin-block: .5rem .6rem; }
+.engineering-note p:not(.eyebrow) { font-size: 1rem; color: var(--muted); max-width: 42rem; }
+.engineering-note .story-links { flex: 0 0 auto; flex-direction: column; margin: 0; }
+.recognition-section { background: var(--ink); color: white; padding-block: 4.5rem; }
+.recognition-section .eyebrow { color: #bfd5e2; }
+.recognition-section a:hover { color: #b2eee0; }
+.recognition-grid { display: grid; grid-template-columns: minmax(0, 1.78fr) minmax(0, 1fr); align-items: start; gap: 3rem; }
+.award-visual { position: relative; display: block; }
+.award-visual img { width: 100%; object-fit: contain; }
+.award-mit .award-visual { aspect-ratio: 16 / 9; }
+.award-guatemala .award-visual { aspect-ratio: 1080 / 1079; }
+.award-story > .eyebrow { margin-top: 1.4rem; }
+.award-story h3 { font-size: clamp(1.8rem, 2.7vw, 2.6rem); line-height: 1.15; margin-block: .7rem 1rem; }
+.award-story .text-link { font-size: .95rem; }
+.recognition-section a:focus-visible { outline-color: #b2eee0; }
+.landing .teaching-section { padding-block: 0 5rem; }
+.next-step { display: flex; justify-content: space-between; align-items: center; gap: 3rem; padding: 2.5rem 3rem; margin-bottom: 4rem; background: #e2efea; }
+.next-step h2 { margin-block: .8rem 1rem; font-size: clamp(2.3rem, 4vw, 3.7rem); }
+.next-step p:not(.eyebrow) { max-width: 43rem; font-size: 1.1rem; color: var(--muted); }
+.contact-actions { display: flex; flex-direction: column; align-items: center; gap: 1rem; flex-shrink: 0; }
+@media (max-width: 1020px) {
+  .landing .intro { gap: 2.5rem; padding-top: 3rem; }
+  .intro h1 { font-size: clamp(3.2rem, 6.5vw, 4.7rem); }
+  .intro-statement { font-size: 1.15rem; }
+  .affiliations a + a { padding-left: 1.1rem; }
+  .affiliations strong { font-size: 1.1rem; }
+  .work-grid, .recognition-grid { gap: 2rem; }
+  .neurips-highlight { padding: 1.5rem; gap: 2rem; }
+  .engineering-note { align-items: flex-start; }
+  .next-step { padding: 2rem; }
+}
+@media (max-width: 720px) {
+  .landing .intro { grid-template-columns: 1fr; gap: 2rem; padding-block: 2.5rem 2rem; }
+  .intro h1 { font-size: clamp(3.25rem, 10.8vw, 4.8rem); }
+  .intro-statement { max-width: 34rem; }
+  .intro-recognition { margin-top: 1.5rem; }
+  .intro-portrait { max-width: 420px; width: 100%; justify-self: center; }
+  .affiliations { grid-template-columns: 1fr; }
+  .affiliations a, .affiliations a + a { padding: 1rem 1.8rem 1rem 0; border-left: 0; }
+  .affiliations a + a { border-top: 1px solid var(--line); }
+  .affiliations strong { font-size: 1.3rem; }
+  .affiliation-arrow { right: .2rem; }
+  .selected-work { padding-block: 3rem 2.5rem; }
+  .neurips-highlight { grid-template-columns: 1fr; gap: 1.5rem; padding: 1.25rem; margin-bottom: 2.5rem; }
+  .work-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+  .work-story h3 { font-size: 2.1rem; }
+  .work-meta { font-size: .76rem; }
+  .engineering-note { display: block; padding: 1.4rem; margin-top: 2.5rem; }
+  .engineering-note .story-links { flex-direction: row; margin-top: 1rem; }
+  .recognition-section { padding-block: 3rem; }
+  .recognition-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+  .award-guatemala .award-visual { max-width: 420px; }
+  .award-story h3 { font-size: 2.1rem; }
+  .landing .teaching-section { padding-bottom: 3rem; }
+  .next-step { display: block; padding: 1.5rem; margin-bottom: 3rem; }
+  .contact-actions { flex-direction: row; flex-wrap: wrap; justify-content: flex-start; margin-top: 1.5rem; }
+  .video-label { left: .75rem; bottom: .75rem; font-size: .78rem; }
+}
+@media print {
+  .landing .intro, .work-grid, .recognition-grid { display: block; }
+  .intro-portrait { max-width: 200px; }
+  .recognition-section { background: white; color: var(--ink); }
+  .recognition-section .eyebrow { color: var(--muted); }
+  .work-story, .award-story, .neurips-highlight { break-inside: avoid; margin-bottom: 2rem; }
+  .work-visual, .award-visual { max-width: 400px; }
+  .video-label, .contact-actions { display: none; }
+}

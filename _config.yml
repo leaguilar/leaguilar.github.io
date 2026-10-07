@@ -1,111 +1,27 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: ""
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Leonel Aguilar personal web-page.
-twitter_username: AguilarMLeonel
-github_username: leaguilar
-minimal_mistakes_skin: default
-search: false
-
-# Build settings
+title: Leonel Aguilar
+description: Leonel Aguilar, Senior Researcher at ETH Zürich. Building AI systems for humans through machine learning, behavioural science and engineering.
+url: https://leaguilar.github.io
+baseurl: ""
+email: aleonel@ethz.ch
+timezone: Europe/Zurich
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-# Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: Europe/Zurich # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-include:
-  - _pages
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
+include: [_pages]
+collections:
+  research:
+    output: true
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
-
-author:
-  name   : "Leonel Aguilar"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Senior Researcher/Scientist/Data Scientist/AI&ML Engineer"
-  links:
-    - label: "Google Scholar"
-      icon: "fab fa-fw fa-google-scholar"
-      url: "https://scholar.google.com/citations?user=XXFxxV0AAAAJ&hl=en"
-    - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/leonelaguilar/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/AguilarMLeonel"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/leaguilar/"
-
-footer:
-  links:
-    - label: "My Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/AguilarMLeonel"
-    - label: "My GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/leaguilar/"
-
-
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - _posts
+  - _pages/home.md
+  - _pages/year-archive.md
+  - _pages/tag-archive.md
+  - _pages/category-archive.md
+  - assets/academicons-1.9.2
+  - .bundle
+  - .jekyll-cache
