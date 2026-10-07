@@ -10,6 +10,12 @@ evident:
   role: Project partner
   years: 2025–2029
   summary: EVIDENT studies how emergency-department layouts shape staff interactions, teamwork and patient care. I’m a project partner in this SNSF-funded collaboration involving ETH Zürich, the University of Cambridge and Northumbria University.
+  figure:
+    url: /assets/profile/evident-wearable-sensors.jpg
+    alt: Leonel Aguilar holding a tray of wearable sensors used to study face-to-face interactions
+    width: 1153
+    height: 2048
+    caption: Wearable sensors for studying face-to-face interactions. From my EHDC 2026 presentation.
 sources:
   senior: "https://ethz.ch/content/dam/ethz/associates/services/News/events/Campus-der-Zukunft/cdz2026/2026_01_12_Campus_der_Zukunft_Christoph_Hoelscher.pdf?download=1#page=2"
   ai_center: "https://ai.ethz.ch/about-us/people/associated.html"
