@@ -21,7 +21,8 @@
 .affiliations a + a { padding-left: 2rem; border-left: 1px solid var(--line); }
 .affiliations a > span:first-child { color: var(--muted); font-size: .85rem; }
 .affiliations strong { font-size: 1.3rem; font-weight: 600; line-height: 1.4; }
-.affiliations .affiliation-logo { width: 150px; max-width: 100%; height: auto; margin-top: .35rem; }
+.affiliation-brand { display: flex; align-items: center; min-height: 6rem; }
+.affiliations .affiliation-logo { width: 150px; max-width: 100%; height: auto; }
 .affiliations .affiliation-logo--eth { width: 174px; }
 .affiliation-arrow { position: absolute; right: 1.2rem; top: 1.6rem; font-size: 1rem; }
 .selected-work { padding-block: 5rem 4rem; }
@@ -49,8 +50,10 @@
 .project-partnership h3 { font-size: clamp(2.5rem, 4vw, 3.5rem); margin-block: .7rem; }
 .project-partnership--text { grid-template-columns: 1fr; }
 .partnership-figure { min-width: 0; }
-.partnership-figure > a { display: block; }
-.partnership-figure img { width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 28%; }
+.partnership-collage { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; }
+.partnership-collage > a { display: flex; align-items: center; background: #10181e; }
+.partnership-collage > a:first-child { grid-column: 1 / -1; }
+.partnership-figure img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: contain; }
 .partnership-figure figcaption { margin-top: .7rem; color: var(--muted); font-size: .75rem; }
 .partnership-summary { margin-top: 1.2rem; font-size: 1.075rem; color: var(--muted); }
 .engineering-note { display: flex; align-items: center; justify-content: space-between; gap: 2.5rem; margin-top: 3rem; padding: 1.6rem 1.8rem; border-left: 3px solid var(--teal); background: #eaf1f3; }

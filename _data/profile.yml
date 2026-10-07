@@ -10,6 +10,22 @@ evident:
   role: Project partner
   years: 2025–2029
   summary: EVIDENT studies how emergency-department layouts shape staff interactions, teamwork and patient care. I’m a project partner in this SNSF-funded collaboration involving ETH Zürich, the University of Cambridge and Northumbria University.
+  # Reviewed source frames and credit: docs/profile-evidence/evident/presentation/nidau-video-selection.json
+  figure:
+    caption: Nidau co-design setup, LiDAR point cloud and projection equipment. Nidau video by iART ag, in collaboration with SCDH.
+    frames:
+      - url: /assets/profile/evident-nidau-colours.jpg
+        alt: Coloured floor projection across the clinical layout at the Nidau co-design session
+        width: 1920
+        height: 1080
+      - url: /assets/profile/evident-pointcloud.jpg
+        alt: Oblique view of an emergency department captured as a LiDAR point cloud
+        width: 1424
+        height: 848
+      - url: /assets/profile/evident-nidau-projection.jpg
+        alt: Overhead projector suspended from the support rig at the Nidau experiment setup
+        width: 1920
+        height: 1080
 sources:
   senior: "https://ethz.ch/content/dam/ethz/associates/services/News/events/Campus-der-Zukunft/cdz2026/2026_01_12_Campus_der_Zukunft_Christoph_Hoelscher.pdf?download=1#page=2"
   ai_center: "https://ai.ethz.ch/about-us/people/associated.html"
