@@ -11,7 +11,7 @@
       ],
       "role": "Teaching team",
       "featured": true,
-      "url": "https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/dozent.view?dozide=10047260&ansicht=1&semkez=2026S&lang=en",
+      "url": "https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=197772&semkez=2026S&lang=en",
       "year_label": "2024–2026"
     },
     {
@@ -24,7 +24,7 @@
       ],
       "role": "Teaching team",
       "featured": true,
-      "url": "https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/dozent.view?dozide=10047260&ansicht=1&semkez=2026W&lang=en",
+      "url": "https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=205764&semkez=2026W&lang=en",
       "year_label": "2025–2026"
     },
     {
@@ -36,7 +36,7 @@
       ],
       "role": "Teaching team",
       "featured": true,
-      "url": "https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/dozent.view?dozide=10047260&ansicht=1&semkez=2026S&lang=en",
+      "url": "https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=200227&semkez=2026S&lang=en",
       "year_label": "2026"
     },
     {
@@ -48,7 +48,7 @@
       ],
       "role": "Teaching team",
       "featured": true,
-      "url": "",
+      "url": "https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=195998&semkez=2025W&lang=en",
       "year_label": "2025"
     },
     {
@@ -61,7 +61,7 @@
       ],
       "role": "Teaching team",
       "featured": false,
-      "url": "",
+      "url": "https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=189186&semkez=2025S&lang=en",
       "year_label": "2024–2025"
     },
     {
@@ -73,31 +73,31 @@
       ],
       "role": "Teaching team",
       "featured": false,
-      "url": "https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/dozent.view?dozide=10047260&ansicht=1&semkez=2026W&lang=en",
+      "url": "https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=202679&semkez=2026W&lang=en",
       "year_label": "2026"
     },
     {
       "key": "learning-ii",
-      "title": "Joint doctorate ETH-EPFL: Introduction to Methods in Learning Sciences II",
+      "title": "Introduction to Methods in Learning Sciences II",
       "code": "851-0255-00L",
       "years": [
         2025
       ],
       "role": "Teaching team",
       "featured": false,
-      "url": "",
+      "url": "https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=188860&semkez=2025S&lang=en",
       "year_label": "2025"
     },
     {
       "key": "learning-i",
-      "title": "Joint doctorate ETH-EPFL: Introduction to Methods in Learning Sciences I",
+      "title": "Introduction to Methods in Learning Sciences I",
       "code": "851-0252-14L",
       "years": [
         2024
       ],
       "role": "Teaching team",
       "featured": false,
-      "url": "",
+      "url": "https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=181766&semkez=2024W&lang=en",
       "year_label": "2024"
     },
     {
@@ -109,19 +109,19 @@
       ],
       "role": "Teaching team",
       "featured": false,
-      "url": "https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/dozent.view?dozide=10047260&ansicht=1&semkez=2026W&lang=en",
+      "url": "https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=204143&semkez=2026W&lang=en",
       "year_label": "2026"
     },
     {
       "key": "ai4good",
       "title": "AI4GOOD: Human-Centered AI for Social Good: Peace, Health, Climate",
-      "code": "",
+      "code": "851-0691-00L",
       "years": [
         2026
       ],
       "role": "Teaching team",
       "featured": true,
-      "url": "",
+      "url": "https://ivia.ethz.ch/teaching/ai4good",
       "year_label": "2026"
     },
     {
@@ -133,7 +133,7 @@
       ],
       "role": "Teaching team",
       "featured": false,
-      "url": "",
+      "url": "https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=123269&semkez=2018W&lang=en",
       "year_label": "2018"
     },
     {
@@ -145,7 +145,7 @@
       ],
       "role": "Teaching team",
       "featured": false,
-      "url": "",
+      "url": "https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=124946&semkez=2018W&lang=en",
       "year_label": "2018"
     }
   ]
